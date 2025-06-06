@@ -558,6 +558,12 @@
 .contact-text-1 h2{
   font-size:32px;
 }
+.santos{
+  margin-left: 4rem;
+}
+.aldeota{
+  margin-left: 8rem;
+}
 .whatsapp-contact{
   display: flex;
   gap: 1rem;
