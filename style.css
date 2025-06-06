@@ -312,6 +312,11 @@
   align-items: center;
   background-color: #197697;
 }
+.contact-text-1{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
 .contact h2{
   font-family: "Special Gothic Expanded One",sans-serif;
   color: #FFFFFF;
@@ -329,8 +334,13 @@
   border-radius: 50%;
   transition: all 0.3s ease;
   cursor: pointer;
-  margin-left: 1rem;
   margin-bottom: 1rem;
+}
+.icon-3 i{
+  margin-left: 7rem;
+}
+.icon-4 i{
+  margin-left: 9rem;
 }
 .icon-3 i:hover {
   transform: scale(1.1); 
@@ -536,7 +546,14 @@
 .contact-text-1{
   display:flex;
   flex-direction: column;
+  align-items: flex-start;
   gap:1rem;
+}
+.icon-3 i{
+  margin-left: 1rem;
+}
+.icon-4 i{
+  margin-left: 1rem;
 }
 .contact-text-1 h2{
   font-size:32px;
