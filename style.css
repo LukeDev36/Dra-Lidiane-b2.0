@@ -366,14 +366,13 @@
   margin-left: 1rem;
   margin-bottom: 1rem;
 }
-.santos p{
+.santos{
   text-align: center;
 }
 .adress p{
   font-family: "Inter",sans-serif;
-  text-align: center;
 }
-.aldeota p{
+.aldeota{
   text-align: center;
 }
 .contact img{
@@ -408,7 +407,7 @@
   gap:2rem;
 }
 .nav-links a{
-  text-decoration: underline;
+  text-decoration: none;
   font-family: "Inter",sans-serif;
   font-size:20px;
   color: #197697;
@@ -549,6 +548,7 @@
 .contact {
   max-width: 100%;
   flex-direction: row;
+  justify-content: space-between;
 }
 .contact-text-1{
   display:flex;
@@ -568,7 +568,8 @@
 .adress-contact{
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items:center;
+  transform: translate(30%);
 }
 .whatsapp-contact{
   display: flex;
@@ -581,6 +582,10 @@
   flex-direction: row;
   align-items: center;
   gap:1rem;
+}
+.contact img{
+  width:400px;
+  height:250px;
 }
 .clinic-images-1{
   display: flex;
@@ -690,13 +695,13 @@
   font-size: 20px;
 }
 .santos p{
-  font-size: 20px;
+  font-size: 24px;
 }
 .adress p{
-  font-size: 20px;
+  font-size: 24px;
 }
 .aldeota p{
-  font-size: 20px;
+  font-size: 24px;
 }
 .end {
   max-width: 100%;
