@@ -9,7 +9,7 @@
   position: sticky;
   top:0;
   z-index: 100;
-  background-color: #FFFFFF;
+  background-color:#FFFFFF;
 }
 .nav-links{
   display: none;
@@ -371,6 +371,7 @@
 }
 .adress p{
   font-family: "Inter",sans-serif;
+  text-align: center;
 }
 .aldeota{
   text-align: center;
@@ -569,7 +570,6 @@
   display: flex;
   flex-direction: column;
   align-items:center;
-  transform: translate(30%);
 }
 .whatsapp-contact{
   display: flex;
@@ -593,7 +593,7 @@
 }
 .clinic-images-2{
   display: flex;
-  margin-left:1rem;
+  margin-left: 1rem;
 }
 .end {
   max-width: 100%;
