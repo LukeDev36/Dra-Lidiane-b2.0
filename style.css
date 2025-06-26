@@ -1,5 +1,6 @@
 *{
   margin: 0;
+  overflow-x: hidden;
 }
 .nav-bar {
   width: 100%;
@@ -40,7 +41,7 @@
 .hero {
   width: 100%;
   display: flex;
-  flex-direction: column;
+  flex-direction:column;
   justify-content: center;
   align-items: center;
 }
@@ -54,13 +55,16 @@
     color:#197697;
     text-align: center;
     margin-bottom: 1rem;
+    font-size:24px;
 }
 .hero p{
     font-family: "Inter", sans-serif;
     color:#197697;
-    font-size:16px;
+    font-size:14px;
     text-align: center;
     margin-bottom: 1rem;
+    margin-left: 1rem;
+    margin-right:1rem;
 }
 .hero a p{
     color: #197697;
@@ -84,7 +88,7 @@
     border: none;
     cursor: pointer;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
     padding: 0 2rem;
@@ -101,7 +105,7 @@
     color: white;
 }
 .hero img{
-    width:264px;
+    width:250px;
     margin-top:1rem;
     margin-bottom: 1rem;
 }
@@ -150,7 +154,7 @@
   font-weight:lighter;
   margin-bottom: 1rem;
 }
-.specialty ul{
+.text ul{
   font-family:"Inter",sans-serif;
   color:#197697;
   margin-bottom: 1rem;
@@ -228,6 +232,11 @@
   align-items: center;
   background-color: #FFF5F0;
 }
+.text-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .exams h2{
   font-family:"Special Gothic Expanded One", sans-serif;
   color:#F9801C;
@@ -246,6 +255,47 @@
   font-family:"Inter", sans-serif;
   color: #F9801C;
   margin-bottom: 1rem;
+}
+.text-2 a p{
+    color: #FFF5F0;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight:bold;
+    margin:0;
+    padding:0.5rem;
+    transition: color 0.3s ease;
+    text-decoration: none;
+}
+.text-2 a i{
+    font-size:32px;
+    color:#FFF5F0;
+    transition: color 0.3s ease;
+}
+.text-2 a{
+    height: 72px;
+    width: 260px;
+    background-color: #FB8F1C;
+    border-radius: 100px;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    align-self: center;
+    margin-bottom:1rem;
+}
+.text-2 a:hover {
+    transform: scale(1.05);
+    background-color: #FB8F1C;
+}
+
+.text-2 a:hover p,
+.text-2 a:hover i {
+    color:#FFF5F0;
 }
 .exams img{
   width:100%;
@@ -432,6 +482,8 @@
   flex-direction: column;
   align-items: center;
   gap: 0.5rem;
+  margin-left: 1rem;
+  max-width: 50%;
 }
 .main-image img{
   width:450px;
